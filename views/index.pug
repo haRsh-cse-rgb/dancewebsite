@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+   style
+     include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+          div#logo
+              img(src="/static/dance.png")
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class info]
+          li #[a(href="/") Contact]
+
+    section#introsection 
+       div Welcome to harsh dance academy 
+       div.small Eat , Sleep , Dance ,Repeat
+    section#mission
+       h2 Our mission
+       div.card  
+          h3 Dance perfection
+          div.card-box
+             div.card-img
+                img(src="/static/danceperpection.png")
+       div.card  
+          h3 Dance india dance
+          div.card-box
+             div.card-img
+                img(src="/static/did.jpg")
+       div.card  
+          h3 Indian idol
+          div.card-box
+             div.card-img
+                img(src="/static/indian idol.png")
+    section#sponsorsection 
+       h2 Our Sponsors
+       div#spo
+         img(src="static/apple.png" class="spimage")
+         img(src="static/microsoft-logo.png" class="spimage")
+         img(src="static/skype.png" class="spimage")
+         
+    section#footer 
+       | Copyright @ 2021 Harsh dance academy.com | All rights reserved
+      
+    script
+      include ../static/index.js

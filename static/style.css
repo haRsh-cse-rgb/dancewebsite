@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    background-color: black;
+    padding: 14px 5px;
+    font-family: 'New Tegomin', serif;
+}
+    #navbar ul{
+ display: flex;
+ /*justify-content: center;*/
+ align-items: center;
+}
+#navbar li {
+list-style: none;
+}
+#navbar li a 
+{
+text-decoration: none;
+padding:3px 15px;
+color: white;
+font-weight: bold;
+padding: 40px;
+}
+#navbar li a:hover{
+    color:yellow;
+}
+#introsection{
+height:600px;
+background-color: rgb(247, 55, 7);
+background: center/cover no-repeat url("/static/bg.jpg");
+color: white;
+justify-content: center;
+align-items: center;
+display:flex;
+flex-direction: column;
+font-family:'New Tegomin', serif ;
+font-size: 40px;
+font-weight: bold;
+padding-bottom: 403px;
+}
+#introsection div.small{
+font-size: 25px;
+padding:5px;
+}
+#sponsorsection{
+height: 300px;
+background-color: black;
+
+}
+#sponsorsection h2{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'New Tegomin', serif ;
+    color: white;
+    font: 30px;
+    text-decoration: underline;
+}
+#footer{
+height:100px;
+background-color: black;
+text-align: center;
+color: white;
+padding-top: 30px;
+margin-top: 1px;
+}
+#mission {
+    height: 350px;
+   background-color: black;
+  /*  margin:12px 125px;*/
+    
+    
+}
+#mission h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'New Tegomin', serif;
+}
+.card{
+    border:3px solid white;
+    border-radius: 10px;
+    width: 29%;
+    height:230px;
+    margin-left: 38px;
+    display:inline-block;
+   /* background-color: rgba(240, 224, 224, 0.719);*/
+    
+    
+}
+.card h3{
+    text-align: center;
+    font-family:'New Tegomin', serif ;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+#logo img{
+    height: 40px;
+    display:flex;
+    filter:invert(1);
+    margin-left: 15px;
+}
+.card-img img{
+    height: 150px;
+    margin-top: 15px;
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#spo{
+    height: 120px;
+    max-width: 687px;
+    margin: auto auto;
+
+}
+.spimage{
+    height: 115%;
+    margin: 30px;
+}
